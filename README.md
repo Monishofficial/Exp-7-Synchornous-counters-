@@ -1,5 +1,5 @@
-## Name: HAREESH R
-## Reg.No.: 23013706
+## Name: MONISH N
+## Reg.No.: 212223240097
 # Exp-6-Synchornous-counters - up counter and down counter 
 ### AIM: To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
@@ -58,6 +58,7 @@ End the module.
 
 ### PROGRAM 
 ## UP COUNTER
+```
 module uc(clk, A);
 
 input clk;
@@ -136,32 +137,34 @@ A[0]=1^A[0];
 
 end
 
-
+```
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
 ## UP COUNTER
-![up trl](https://github.com/HareeshrajaR/Exp-7-Synchornous-counters-/assets/144870459/5d45edcc-a431-4722-82ed-a29f7bd8b042)
+![upcounterex6image](https://github.com/Monishofficial/Exp-7-Synchornous-counters-/assets/149455421/5b54c785-9b19-405a-849e-e63a57645cd0)
 
 ## DOWN COUNTER
-![down rtl](https://github.com/HareeshrajaR/Exp-7-Synchornous-counters-/assets/144870459/7ac99a03-3cd4-4b8f-8f90-160d2da3f6ce)
+
+![downcounterex6image](https://github.com/Monishofficial/Exp-7-Synchornous-counters-/assets/149455421/dcf9644d-6147-4e2a-8559-7d13762dd5bb)
 
 ### TIMING DIGRAMS FOR COUNTER 
 
 ## UP COUNTER
-![up time](https://github.com/HareeshrajaR/Exp-7-Synchornous-counters-/assets/144870459/94a6a331-5462-4940-be04-98645c214fca)
-
+![upcounterex6timing](https://github.com/Monishofficial/Exp-7-Synchornous-counters-/assets/149455421/efc68bd1-7ac8-42d5-b33c-d0942fbeb5e0)
 
 ## DOWN COUNTER
-![down time](https://github.com/HareeshrajaR/Exp-7-Synchornous-counters-/assets/144870459/1ef90287-4acf-4eb8-8434-ded62d49ad1c)
 
+![downcoutnterex6timing](https://github.com/Monishofficial/Exp-7-Synchornous-counters-/assets/149455421/36676021-6ab0-47df-81ba-bb9806326d4d)
 
 ### TRUTH TABLE 
 
 ## UP COUNTER
-![up truth](https://github.com/HareeshrajaR/Exp-7-Synchornous-counters-/assets/144870459/2f8500c3-feea-4248-87df-47aa2b8e3184)
+![upcounterex6truth](https://github.com/Monishofficial/Exp-7-Synchornous-counters-/assets/149455421/0448f68d-89ce-42fb-aceb-9d05521cf6bf)
+
 
 ## DOWN COUNTER
-![down truth](https://github.com/HareeshrajaR/Exp-7-Synchornous-counters-/assets/144870459/e511676f-2bbc-4c14-bee5-62e64da80b06)
+
+![downcountertruth](https://github.com/Monishofficial/Exp-7-Synchornous-counters-/assets/149455421/9fb14a6d-aed5-4719-b036-8d0a0945882a)
 
 ### RESULTS 
 Thus, the flipflops are implemented using verilog.
