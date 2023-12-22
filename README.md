@@ -78,8 +78,9 @@ A[0]=A[0]^1;
 end
 
 endmodule
-
+```
 ## DOWN COUNTER
+```
 module dc(clk,A);
 
 input clk;
